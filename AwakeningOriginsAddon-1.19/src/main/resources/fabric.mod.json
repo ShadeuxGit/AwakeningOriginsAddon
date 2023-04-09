@@ -3,10 +3,10 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Awakening Origins",
+  "description": "A Minecraft Origins addon that adds 10 new leveling origins to the game.",
   "authors": [
-    "Me!"
+    "ShadeuxGit"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -27,10 +27,12 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.17",
+    "fabricloader": ">=0.14.19",
     "fabric-api": "*",
-    "minecraft": "~1.19.4",
-    "java": ">=17"
+    "minecraft": "~1.19.3",
+    "java": ">=17",
+    "Origins": "1.19.3-1.8.1",
+    "Pehkui": "3.7.0+1.14.4-1.19.3"
   },
   "suggests": {
     "another-mod": "*"
